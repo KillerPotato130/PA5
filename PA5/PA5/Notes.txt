@@ -1,0 +1,80 @@
+SUMMARY:
+	-two lines (queues)
+		-one Express line
+			-Customers arrive every 1-5 minutes
+			-Service times very from 1-5 minutes
+		-one Normal lane
+			-Customers arrive every 3-8 minutes
+			-Service times very from 3-8 minutes
+
+	-When a customer arrives 
+		-print message indicating which line
+		-print the overall corresponding arrival time
+		-print the ccustomer number
+
+	-when a customer leaves
+		-print a message indicating which line the customer was in
+		-print the corresponding customer number
+		-print the totalTime in the line
+
+	-simulation should run for n number of minutes
+		-n is inputted by the user
+
+
+The general program flow is as follows:
+
+    -Generate a random number between 1 – 5 and 3 – 8 for express and normal lanes, respectively. 
+		This represents the arrival time of the first customer into each lane. Set the variable for total time elapsed to 0.
+    -As customers arrive into each line, randomly generate a service time for each. 
+		Start processing the customers in the lanes based on service time. Randomly generate the arrival time of the next customer 
+		into each line. Elapsed time should be updated by one unit.
+
+
+    -As each minute elapses, a new customer may arrive and/or another customer may be done checking out. 
+		Display the appropriate messages as described above.
+    -For every 10 minutes, print out the entire queue for each line
+    -Repeat steps 2 through 4 for n minutes of simulation.
+
+
+TO DO:
+
+	
+
+MAYBE DONE:
+
+
+DONE:
+	
+	Data class 
+		-getters  
+		-setters  
+		-constructors  
+
+	QueueNode class
+		-getters
+		-setters
+		-constructors
+		-copy constructors
+
+
+		Queue Class  (First in, First out)
+		-getters
+		-setters
+		-constructors
+		-copy constructors
+
+		-enqueue() - used to insert
+		-dequeue() - used to delete
+		-printQueue() 
+
+
+		All the Logic
+
+	TEST CASES
+		- One test case that executes your enqueue() operation on an empty queue
+		- One test case that executes your enqueue() operation with one node in the queue
+		- One test case that executes your dequeue() operation on a queue with one node
+		- One test case that executes your dequeue() operation on a queue with two nodes
+		- One test case that runs your simulation for 24 hours (1440 minutes)
+
+	BONUS 

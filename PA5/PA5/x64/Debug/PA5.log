@@ -1,0 +1,8 @@
+﻿  Queue.cpp
+  Simulation.cpp
+  TestApp.cpp
+  main.cpp
+C:\Users\grizz\OneDrive\Desktop\CS 122\PA\PA5\PA5\main.cpp(10,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Generating Code...
+C:\Users\grizz\OneDrive\Desktop\CS 122\PA\PA5\PA5\Queue.cpp(152): warning C4715: 'Queue::isEmpty': not all control paths return a value
+  PA5.vcxproj -> C:\Users\grizz\OneDrive\Desktop\CS 122\PA\PA5\x64\Debug\PA5.exe
